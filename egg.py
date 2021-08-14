@@ -59,7 +59,9 @@ class FloorAlgorithm:
         
     
 
+floors = int(input("Please enter the number of floors in the building: \n"))
 
-floor_algo = FloorAlgorithm(100, random.randrange(100))
+
+floor_algo = FloorAlgorithm(floors, random.randrange(floors))
 
 floor_algo.print_history()
